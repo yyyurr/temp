@@ -1,0 +1,10 @@
+create database youcantgohomeuntilmakethisboard;
+use youcantgohomeuntilmakethisboard;
+
+create table board(
+     num integer AUTO_INCREMENT PRIMARY KEY,
+     board_name varchar(255) not null,
+     author varchar(255) not null,
+     email varchar(255) not null,
+     content varchar(255) not null
+     );
